@@ -1,13 +1,13 @@
 {
   "name": "node-module-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "build/index.js",
   "types": "build/index.d.ts",
-  "repository": "",
   "author": "Max Prilutskiy",
   "license": "MIT",
   "private": true,
+  "repository": "",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
@@ -35,7 +35,7 @@
     "clean": "rm -rf build coverage",
     "build": "tsc",
     "test": "jest",
-    "lint": "eslint . --ext .js,.ts",
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
     "prepublishOnly": "yarn test && yarn build"
   },
   "files": [
