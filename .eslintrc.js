@@ -19,5 +19,6 @@ module.exports = {
     'no-multiple-empty-lines': ['error', { max: 1 }],
     'no-multi-spaces': ['error'],
     '@typescript-eslint/no-explicit-any': ['off'],
+    semi: ['error', 'always'],
   },
 };
